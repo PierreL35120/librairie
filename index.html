@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliothèque</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logosvg.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Bibliothèque</h1>
+    <div class="intro"><p>Bienvenue dans votre bibliothèque, c'est ici que vous pourrez lister et sauvegarder votre collection de bouquin ! <br> Pour commencer, vous devrez rentrer les choses suivantes : Le nom de l'oeuvre, son auteur ainsi que son genre dans les champs prévu à cet effet juste en dessous.<br></p></div>
+
+    <form class="form">
+        <input type="text" class='livre' placeholder="Nom du livre" autocomplete="off"/>
+        <input type="text" class='tome' placeholder="Numéro du volume, si c'est une série avec 1 volume, mettez juste un 1." autocomplete="off"/>
+        <input type="text" class='auteur' placeholder="Nom de l'auteur" autocomplete="off"/>
+        <input type="text" class='genre' placeholder="Genre" autocomplete="off"/>
+        <input type="text" class='ISBNT' placeholder="ISBN" autocomplete="off"/>
+        <button type="submit" class="add">Ajouter à la bibliothèque</button>
+    </form>
+
+    <li class="item itemintro"><div class="book"><span>Titre</span></div>
+    <div class="vol"><span>N°</span></div>
+    <div class="author"><span>Auteur</span></div>
+    <div class="gender"><span>Genre</span></div>
+    <div class="ISBNA ISBNAintro"><span>N°ISBN</span></div>
+    <div class="ISBN"><span><a href="https://www.chasse-aux-livres.fr/prix/" target="_blank">Shop</a></div>
+    <button name="update" class="update"><img src="2.svg" alt="update"></button>
+    <button name="trash" class="trash"><img src="x.svg" alt="X"></button></li>
+
+    <ul class="collection">
+    </ul>
+
+    <div class="update-form">    
+        <form class="upp">
+        <input type="text" class='livreup' placeholder="Nom du livre" autocomplete="off"/>
+        <input type="text" class='tomeup' placeholder="Numéro du volume" autocomplete="off"/>
+        <input type="text" class='auteurup' placeholder="Nom de l'auteur" autocomplete="off"/>
+        <input type="text" class='genreup' placeholder="Genre" autocomplete="off"/>
+        <button type="submit" class="addup">Modifier l'entrée</button>
+    </form></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

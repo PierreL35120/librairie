@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2vh;
+    color: rgb(105, 175, 111);
+
+}
+
+p, span, a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #1c2224;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color: #69af92	;
+}
+
+.intro{
+    margin-top: 30px;
+    width: 85%;
+    text-align: center;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    color: white;
+}
+
+form{
+    transform: translateX(-50%);
+    margin-left: 53%;
+    margin-top: 10px;
+}
+
+.livreup, .tomeup, .auteurup, .genreup, .livre, .tome, .auteur, .genre, .ISBNT, .ISBNA{
+    width: 45vw;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #aed4b1;
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.add, .addup{
+    width: 45.3vw;
+    margin-top: 1px;
+    height: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+
+.item {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 0px;
+    max-width: 97%;
+    margin-left: 1.5%;
+    height: 24px;
+    padding: 5px;
+    transition: .3s;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    margin-top: 3px;
+    color: #f1f1f1;
+}
+
+
+.itemintro, .ISBNAintro, .itemintro a{
+    color: #69af92	;
+    font-weight: 600;
+}
+
+.item:hover span, .item:hover a{
+    color:#69af92	;
+}
+
+.collection {
+    font-size: 1.1em;
+    padding: 0;
+}
+
+.vol, .book, .author, .gender, .ISBN{
+    background-color: transparent;
+}
+
+.ISBNA{
+    background-color: transparent;
+}
+
+.vol {
+    width : 7vw;
+}
+.book {
+    width: 40vw;
+}
+
+.author {
+    width: 30vw;
+}
+
+.gender{
+    width: 20vw;
+}
+
+
+.ISBNA{
+    width: 30vw;
+    margin-top: 2px;
+}
+
+.ISBN{
+    width: 7vw;
+}
+
+.trash{
+    float: right;
+    background-color: transparent;
+    border: transparent;
+}
+
+.trash img, .update img{
+    margin-top: 5px;
+    margin-right: 5px;
+    height: 16px;
+    width: 16px;
+}
+
+.update{
+    float: right;
+    background-color: transparent;
+    border: transparent;
+}
+
+.update-form{
+    width: 70%;
+    height: 210px;
+    border-radius: 20px;
+    display: none;
+}
+
+.livreup, .tomeup, .auteurup, .genreup, .update-form, .addup{
+transform: translateX(-50%);
+margin-left: 50%;
+}
+
+.see{
+    display: flex;
+}
